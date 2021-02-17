@@ -39,9 +39,8 @@ const App = () => {
   return (
     <>
     <View style={styles.container}>
-      <Image source={dice} style={styles.img}/> 
       <TouchableOpacity onPress={handleDice}>
-    <Text style={styles.content}>Play Again</Text>
+      <Image source={dice} style={styles.img}/> 
     </TouchableOpacity>
     </View>
     </>
